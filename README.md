@@ -197,7 +197,3 @@ Runs the multi-agent workflow.
 - Move from CSV to a transactional database
 - Add unit/integration tests and CI pipeline
 - Add structured observability and tracing
-
-## License
-
-Choose and add a license file before public release (for example: MIT).
