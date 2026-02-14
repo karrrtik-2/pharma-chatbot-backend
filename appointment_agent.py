@@ -6,10 +6,10 @@ from langchain_core.prompts.chat import ChatPromptTemplate
 from langgraph.graph import START, StateGraph, END
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage, AIMessage
-from prompt_library.prompt import system_prompt
+from prompts.supervisor_prompt import system_prompt
 from utils.llms import LLMModel
 from utils.logger import get_logger
-from toolkit.toolkits import *
+from tools.appointment_tools import *
 
 
 logger = get_logger(__name__)
